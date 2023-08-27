@@ -38,13 +38,23 @@ body * {
   padding: 0 2.4rem;
 }
 
+header img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  width: 100%;
+  height: 200px;
+}
+
 #profile {
   text-align: center;
   padding: 2.4rem;
 }
 
 #profile img {
-  width: 11.2rem;
+  width: 18rem;
 }
 
 #profile h4 {
@@ -153,5 +163,19 @@ footer a {
   font-weight: 400;
   line-height: 2rem;
   text-decoration: underline;
+}
+
+/* RESPONSIVO */
+@media only screen and (max-width: 760px) {
+  header img {
+  background-image: url("../img/bg-mobile-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  width: 100%;
+  height: 117px;
+  }
 }
 
